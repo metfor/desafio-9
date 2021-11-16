@@ -4,6 +4,7 @@ import { About } from '../components/About'
 
 import { Header } from '../components/Header'
 import { Projects } from '../components/Projects'
+import { Services } from '../components/Services'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -17,6 +18,7 @@ const Home: NextPage = () => {
       <Header/>
       <About/>
       <Projects/>
+      <Services/>
     </div>
   )
 }

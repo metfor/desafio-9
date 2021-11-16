@@ -7,7 +7,7 @@ export function Header () {
             <BoxLinks>
                 <TextLink><LinkNext href="#sobre">Sobre mim</LinkNext></TextLink>
                 <TextLink><LinkNext href="#Projects">Projetos</LinkNext></TextLink>
-                <TextLink><LinkNext href="#sobre">Serviços</LinkNext></TextLink>
+                <TextLink><LinkNext href="#services">Serviços</LinkNext></TextLink>
                 <TextLink><LinkNext href="#sobre">Minhas skills</LinkNext></TextLink>
             </BoxLinks>
         </HeaderContainer>

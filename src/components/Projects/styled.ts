@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import image from 'next/image'
 export const ProjectsContainer = styled.div`
     margin-top:127px;
     display: grid;
@@ -29,6 +30,8 @@ export const BoxProject = styled.div`
     width: 350px;
     height: 240px;
     background-color:#212121;
+    border: 1px solid #333333;
+box-sizing: border-box;
 
 `
 export const ImgProject = styled.div`
@@ -37,6 +40,8 @@ export const ImgProject = styled.div`
     width: 300px;
     height: 130px;
     background-color: #171717;
+    border: 1px solid #333333;
+box-sizing: border-box;
 `
 export const TitleProject = styled.h1`
     font-family: DM Sans;
@@ -58,3 +63,5 @@ export const SubProject = styled.text`
     margin-left: 35px;
 
 `
+export const MyImage = styled(image)``
+export const BoxImage = styled.div``
