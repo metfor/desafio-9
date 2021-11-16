@@ -2,7 +2,7 @@ import { AboutContainer, AboutText, BoxAbout, BoxButtons, BoxCircle, BoxContact,
 
 export function About () {
   return (
-        <AboutContainer className="sobre">
+        <AboutContainer id="sobre">
             <InitBox>
                 <HelloBox>
                     <Title>
