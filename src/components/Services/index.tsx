@@ -6,10 +6,10 @@ import {
   MyImage,
   ServicesContainer,
   SubServices,
-  Title
-} from './styled'
+  Title,
+} from './styled';
 
-export function Services () {
+export function Services() {
   return (
     <ServicesContainer id="services">
       <Title>Serviços</Title>
@@ -23,7 +23,9 @@ export function Services () {
               alt="code"
             />
           </BoxImage>
-          <SubServices>Criação <br/> de sites</SubServices>
+          <SubServices>
+            Criação <br /> de sites
+          </SubServices>
           <Line />
         </BoxService>
         <BoxService>
@@ -35,7 +37,10 @@ export function Services () {
               alt="code"
             />
           </BoxImage>
-          <SubServices>UI<br/> Designer</SubServices>
+          <SubServices>
+            UI
+            <br /> Designer
+          </SubServices>
           <Line />
         </BoxService>
         <BoxService>
@@ -47,10 +52,13 @@ export function Services () {
               alt="code"
             />
           </BoxImage>
-          <SubServices>Sites <br/>Responsivos</SubServices>
+          <SubServices>
+            Sites <br />
+            Responsivos
+          </SubServices>
           <Line />
         </BoxService>
       </BoxServices>
     </ServicesContainer>
-  )
+  );
 }
