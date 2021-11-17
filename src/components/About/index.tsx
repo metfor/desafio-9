@@ -18,7 +18,7 @@ export function About () {
                 </HelloBox>
                 <BoxImage>
                 <MyImage
-                    src="/../public/image1.png"
+                    src="/../public/man.svg"
                     width="300"
                     height="254.47"
                     alt="man"

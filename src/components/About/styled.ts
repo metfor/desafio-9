@@ -29,8 +29,9 @@ export const ButtonDownload = styled.button`
     font-family: DM Sans;
     font-weight: 500;
     font-size:14px;
-    
+    border:none;
     color:#171717;
+    cursor: pointer;
 `
 export const ButtonContact = styled.button`
     width: 143px;
@@ -39,10 +40,11 @@ export const ButtonContact = styled.button`
     font-family: DM Sans;
     font-weight: 500;
     font-size:14px;
-  
     color:#f9f9f9;
     border: 1px solid #333333;
     box-sizing: border-box;
+    cursor: pointer;
+    
 `
 export const InitBox = styled.div`
     display:flex;
@@ -99,11 +101,13 @@ export const BoxCircle = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
     
 `
 export const BoxContacts = styled.div`
     display: flex;
     justify-content: space-between;
+    
 `
 export const BoxContact = styled.div`
         display: flex;
